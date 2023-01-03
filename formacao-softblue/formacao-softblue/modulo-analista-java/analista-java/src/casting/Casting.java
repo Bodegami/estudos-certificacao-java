@@ -15,9 +15,11 @@ public class Casting {
 		
 		long x = 10; //casting implicito
 		x = 10L; //sem casting
+		System.out.println(x);
 		
 		float y = 40; //casting implicito
 		y = 40F; //sem casting
+		System.out.println(y);
 		
 		
 		/**
@@ -31,6 +33,7 @@ public class Casting {
 		 */
 		
 		float z = (float) 40.0; //casting explicito
+		System.out.println(z);
 		
 		//short s = 100000; -> não compila, pois o valor é maior que o tipo short
 		short s = (short) 100000; //forçamos o casting
